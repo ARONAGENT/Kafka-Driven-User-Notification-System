@@ -1,8 +1,8 @@
 package com.springJourneyMax.user_service.services;
 
+import com.springJourneyMax.events.UserCreatedEvent;
 import com.springJourneyMax.user_service.dtos.UserDto;
 import com.springJourneyMax.user_service.entities.UserEntity;
-import com.springJourneyMax.user_service.event.UserCreatedEvent;
 import com.springJourneyMax.user_service.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,6 +1,6 @@
 package com.springJourneyMax.notification_service.consumer;
 
-import com.springJourneyMax.user_service.event.UserCreatedEvent;
+import com.springJourneyMax.events.UserCreatedEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
