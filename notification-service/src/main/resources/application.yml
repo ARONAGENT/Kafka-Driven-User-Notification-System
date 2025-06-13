@@ -4,7 +4,8 @@ spring:
     consumer:
       group-id: ${spring.application.name}
       key-deserializer: org.apache.kafka.common.serialization.LongDeserializer
-      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
       properties:
-        spring.json:
-          trusted.packages: com.springJourneyMax.*
+        schema.registry.url: http://127.0.0.1:8081
+        specific.avro.reader: true
+        spring.json.trusted.packages: com.springJourneyMax.*
