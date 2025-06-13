@@ -22,7 +22,9 @@ public class UserController {
     private final KafkaTemplate<String,String> kafkaTemplate;
     @PostMapping("/{message}")
     public ResponseEntity<String> sendMsg(@PathVariable String message){
-        kafkaTemplate.send(KAFKA_RANDOM_USER_TOPIC,message);
+        for (int i = 0; i <1000 ; i++) {
+            kafkaTemplate.send(KAFKA_RANDOM_USER_TOPIC,""+i%2,message);
+        }
         return ResponseEntity.ok("Message Send");
     }
 
