@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-3.9.1-blue.svg)](https://kafka.apache.org/)
-[![Kafbat](https://img.shields.io/badge/Kafbat-UI-lightgrey.svg)](https://github.com/gresearch/kafbat)
+[![Kafbat](https://img.shields.io/badge/Kafbat-UI-lightgrey.svg)](https://www.kafbat.io/)
 [![Confluent](https://img.shields.io/badge/Confluent-Platform-blueviolet.svg)](https://www.confluent.io/)
 
 
@@ -731,15 +731,11 @@ Step-by-step implementation walkthroughs:
 - Update documentation for API changes
 - Use conventional commit messages
 
-> **📌 Important Resources**
-> 
-> | Resource | Link | Description |
-> |----------|------|-------------|
-> | 🏠 **Repository** | [Kafka_SpringBoot](https://github.com/ARONAGENT/Kafka_SpringBoot) | Main project repository |
-> | 🐛 **Issues** | [Report Bug/Feature](https://github.com/ARONAGENT/Kafka_SpringBoot/issues) | Bug reports and feature requests |
-> | 📊 **KafBat UI** | [kafbat-ui](https://github.com/kafbat/kafbat-ui) | Kafka visualization tool |
-> | 🌐 **Confluent Platform** | [Confluent Docs](https://docs.confluent.io/) | Official Confluent documentation |
-
+## 🔗 Useful Links
+### 🏠 **Repository**: [Kafka_SpringBoot](https://github.com/ARONAGENT/Kafka_SpringBoot)  
+### 🐛 **Fix Issues**: [Report Bug/Feature](https://github.com/ARONAGENT/Kafka_SpringBoot/issues)  
+### 📊 **Kafbat UI**: [kafbat.io](https://www.kafbat.io/)  
+### 🌐 **Confluent Platform**: [Confluent Docs](https://docs.confluent.io/)  
 
 ## 📧 Contact
 
