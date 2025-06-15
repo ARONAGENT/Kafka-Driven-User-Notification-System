@@ -8,6 +8,7 @@
 
 
 A comprehensive demonstration of Apache Kafka integration with Spring Boot, covering everything from basic producer-consumer patterns to advanced schema registry implementations.
+![image](https://github.com/user-attachments/assets/aa52318e-b8fc-4386-b6b8-e2234cf5699a)
 
 ## 🚀 Overview
 
